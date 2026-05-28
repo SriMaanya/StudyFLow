@@ -35,8 +35,35 @@ html, body{
 
 @media (max-width: 768px){
 
-    .app.sidebar-open{
-        grid-template-columns: 80px 1fr;
+    .app{
+        grid-template-columns: 1fr;
+    }
+
+    .main-container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 260px !important;
+        z-index: 2000;
+
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .main-container.open{
+        transform: translateX(0);
+        width: 260px !important;
+    }
+
+    .main-container.closed{
+        transform: translateX(-100%);
+        width: 0 !important;
+    }
+
+    .main-content{
+        width: 100%;
+        margin-left: 0;
     }
 }
 
@@ -100,6 +127,7 @@ html, body{
     z-index: 1000;
     overflow: hidden;
     transition: width 0.3s ease;
+    position: relative;
 }
 
 .main-container.open{
@@ -1189,6 +1217,12 @@ html, body{
     display: flex;
     flex-direction: column;
     height: 400px;
+}
+
+@media (max-width: 640px) {
+    .mood-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .mood-section{
