@@ -15,7 +15,7 @@ Note: This will impact Vite dev & build performances.
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
 =======
 # StudyFLow
 StudyFlow is a React productivity app with a Pomodoro timer, task manager, mood tracker, notes, and settings in a clean responsive dashboard. Built with reusable components, state management, hooks, and modern UI design to help users stay focused and organized.
