@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -20,4 +19,4 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # StudyFLow
 StudyFlow is a React productivity app with a Pomodoro timer, task manager, mood tracker, notes, and settings in a clean responsive dashboard. Built with reusable components, state management, hooks, and modern UI design to help users stay focused and organized.
->>>>>>> f194412ecff99727c31b6bfb910c5b47cb6ce9b0
+
